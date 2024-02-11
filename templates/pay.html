@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+          rel="stylesheet"
+        />
+        <link rel= "stylesheet" type= "text/css" href= "../static/styles/paystyle.css">
+    
+    </head>
+  <body>
+    <main>
+      <div class="alert-box">
+        <p class="alert">Invalid Username or Password</p>
+      </div>
+      <section class="glass">
+        <div class="sign">
+          <div class="status">
+            <h1>Pay</h1>
+            <div id="underline">
+          </div>
+          <div class="cards" action="login.php" method="post">
+            <form class="card">
+              <div class="card-info">
+                <h2>Reciever's Address</h2>
+                <input type="text" placeholder="Enter Acount Address" autocomplete="off" name="uname" required>
+                <h2>Amount</h2>
+                <input type="number" placeholder="Enter Amount" autocomplete="off" name="psw" required>
+              </div>
+            </form>
+            <div class="buttons">
+                <button class="btn" type="submit" onclick="location.href = 'http://127.0.0.1:5000/index.html';">Pay</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+  </body>
+</html>
